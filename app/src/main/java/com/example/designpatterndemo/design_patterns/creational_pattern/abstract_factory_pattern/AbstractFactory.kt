@@ -1,4 +1,4 @@
-package com.example.designpatterndemo.creational_pattern.abstract_factory_pattern
+package com.example.designpatterndemo.design_patterns.creational_pattern.abstract_factory_pattern
 
 abstract class AbstractFactory {
     abstract fun getShape(shapeType: String?): Shape?

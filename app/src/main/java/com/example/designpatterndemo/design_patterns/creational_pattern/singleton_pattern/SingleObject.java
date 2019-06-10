@@ -1,4 +1,4 @@
-package com.example.designpatterndemo.creational_pattern.singleton_pattern;
+package com.example.designpatterndemo.design_patterns.creational_pattern.singleton_pattern;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
