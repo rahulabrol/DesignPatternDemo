@@ -1,0 +1,74 @@
+{
+  "1": [
+    {
+      "from": "11:00",
+      "to": "14:00",
+      "shiftId": "1qaz-2wsx-3edc-4rfv"
+    },
+    {
+      "from": "20:00",
+      "to": "23:58",
+      "shiftId": "1faz-2hsx-3ejc-4rfv"
+    }
+  ],
+  "2": [
+    {
+      "from": "11:00",
+      "to": "14:00",
+      "shiftId": "1q4z-2ws5-3edc-4rfv"
+    },
+    {
+      "from": "20:00",
+      "to": "23:58",
+      "shiftId": "1qaz-2ws7-3e7c-4r9v"
+    }
+  ],
+  "3": [
+    {
+      "from": "11:00",
+      "to": "14:00",
+      "shiftId": "1gfz-2jh5-3lkjc-4rlk"
+    },
+    {
+      "from": "20:00",
+      "to": "23:58",
+      "shiftId": "1qfdz-2rr7-3iiuc-4pov"
+    }
+  ],
+  "4": [
+    {
+      "from": "11:00",
+      "to": "14:00",
+      "shiftId": "1gfz-gf5-3edc-4rfv"
+    },
+    {
+      "from": "20:00",
+      "to": "23:58",
+      "shiftId": "bnbaz-2ws7-3e7c-4r9v"
+    }
+  ],
+  "5": [
+    {
+      "from": "11:00",
+      "to": "14:00",
+      "shiftId": "1gfz-gf5-3edc-4rfv"
+    },
+    {
+      "from": "20:00",
+      "to": "23:58",
+      "shiftId": "bnbaz-2ws7-3e7c-4r9v"
+    }
+  ],
+  "6": [
+    {
+      "from": "11:00",
+      "to": "14:00",
+      "shiftId": "1gfz-gf5-7dc-4rfv"
+    },
+    {
+      "from": "20:00",
+      "to": "23:58",
+      "shiftId": "bnbaz-2ws7-767c-4r9v"
+    }
+  ]
+}
