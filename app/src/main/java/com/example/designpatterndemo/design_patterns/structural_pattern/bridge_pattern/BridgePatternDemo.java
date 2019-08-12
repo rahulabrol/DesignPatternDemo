@@ -1,9 +1,7 @@
 package com.example.designpatterndemo.design_patterns.structural_pattern.bridge_pattern;
 
 /**
- * Also known as
- * <p>
- * Handle/Body
+ * Also known as:--> Handle/Body
  * <p>
  * Decouple an abstraction from its implementation so that the two can vary independently.
  * <p>
@@ -38,7 +36,7 @@ public class BridgePatternDemo {
         sword.swing();
         sword.unWield();
 
-        Hammer hammer=new Hammer(new FlyingEnchantment());
+        Hammer hammer = new Hammer(new FlyingEnchantment());
         hammer.wield();
         hammer.swing();
         hammer.unWield();
