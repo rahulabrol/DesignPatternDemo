@@ -118,15 +118,15 @@ public class CustomLinkedList {
         if (index < 1 || index > size())
             return false;
 
-        Node crunchifyCurrent = head;
+        Node current = head;
         if (head != null) {
             for (int i = 0; i < index; i++) {
-                if (crunchifyCurrent.getNext() == null)
+                if (current.getNext() == null)
                     return false;
 
-                crunchifyCurrent = crunchifyCurrent.getNext();
+                current = current.getNext();
             }
-            crunchifyCurrent.setNext(crunchifyCurrent.getNext().getNext());
+            current.setNext(current.getNext().getNext());
 
             // decrement the number of elements variable
             decrementCounter();
