@@ -9,7 +9,7 @@ public class ReverseLinkedList<T> {
         int randomNo;
         System.out.print("in main()...\n");
         // Let's create integer array with 15 values in it
-        for (int i = 1; i <=5; i++) {
+        for (int i = 1; i <= 5; i++) {
             randomNo = (21 + (int) (Math.random() * ((55 - 2)))); // We are just getting total 8 Random elements
             linkedList.addElement(randomNo);
         }
@@ -61,8 +61,8 @@ public class ReverseLinkedList<T> {
      * @param element element that we want to add.
      */
     public void addElement(T element) {
-        Node<T> node = new Node<>();
-        node.setNodeValue(element);
+        Node<T> node = new Node<>(element);
+        //node.setNodeValue(element);
         System.out.println("Adding Element: " + element);
         Node<T> tempVariable = headElement;
         while (true) {
@@ -82,6 +82,16 @@ public class ReverseLinkedList<T> {
 
         private T nodeValue;
         private Node<T> next;
+
+        public Node(T nodeValue) {
+            this.nodeValue = nodeValue;
+            this.next = null;
+        }
+
+        public Node(T nodeValue, Node next) {
+            this.nodeValue = nodeValue;
+            this.next = next;
+        }
 
         public Node<T> getNext() {
             return next;
