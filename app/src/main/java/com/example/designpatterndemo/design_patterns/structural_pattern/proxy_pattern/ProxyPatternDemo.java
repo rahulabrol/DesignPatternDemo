@@ -1,6 +1,5 @@
 package com.example.designpatterndemo.design_patterns.structural_pattern.proxy_pattern;
 
-import com.example.designpatterndemo.custom_data_strucutres.CustomLinkedList;
 import com.example.designpatterndemo.design_patterns.structural_pattern.proxy_pattern.protection_proxy.Internet;
 import com.example.designpatterndemo.design_patterns.structural_pattern.proxy_pattern.protection_proxy.ProxyInternet;
 
@@ -63,16 +62,5 @@ public class ProxyPatternDemo {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-
-        CustomLinkedList customLinkedList = new CustomLinkedList();
-        customLinkedList.add("1");
-        customLinkedList.add("3");
-        customLinkedList.add("5");
-        customLinkedList.add("7");
-        customLinkedList.add("2");
-        customLinkedList.add("4");
-        customLinkedList.add("6");
-        customLinkedList.add("8");
-        System.out.println(customLinkedList.toString());
-            }
+    }
 }

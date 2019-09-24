@@ -1,17 +1,29 @@
 package com.example.designpatterndemo.custom_data_strucutres;
 
+import org.jetbrains.annotations.NotNull;
+
 public class CustomLinkedList {
 
     private static int counter;
     // reference to the head Node.
     private Node head;
-
     // LinkedList constructor
     public CustomLinkedList() {
         // this is an empty list,so the reference to the head node
         // is set to a new node with no data.
-        // head = new Node(null);
-        // listCount = 0;
+    }
+
+    public static void main(String[] args) {
+        CustomLinkedList customLinkedList = new CustomLinkedList();
+        customLinkedList.add("1");
+        customLinkedList.add("3");
+        customLinkedList.add("5");
+        customLinkedList.add("7");
+        customLinkedList.add("2");
+        customLinkedList.add("4");
+        customLinkedList.add("6");
+        customLinkedList.add("8");
+        System.out.println(customLinkedList.toString());
     }
 
     private static void incrementCounter() {
@@ -140,18 +152,18 @@ public class CustomLinkedList {
         return getCounter();
     }
 
+    @NotNull
     public String toString() {
-        String output = "";
+        StringBuilder output = new StringBuilder();
 
         if (head != null) {
             Node current = head.getNext();
             while (current != null) {
-                output += "[" + current.getData().toString() + "]";
+                output.append("[").append(current.getData().toString()).append("]");
                 current = current.getNext();
             }
-
         }
-        return output;
+        return output.toString();
     }
 
     /**
