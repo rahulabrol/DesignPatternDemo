@@ -1,4 +1,4 @@
-package com.example.designpatterndemo.custom_data_strucutres;
+package com.example.designpatterndemo.custom_ds.linkedlist;
 
 public class ReverseLinkedList<T> {
 
