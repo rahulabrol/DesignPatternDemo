@@ -1,21 +1,21 @@
 package com.example.designpatterndemo.custom_ds.binary_tree;
 
-public class DeleteNodeFromCustomBinarySearchTree {
+public class DeletetionInBST {
 
     private Node root;
 
     // Constructor
-    DeleteNodeFromCustomBinarySearchTree(int key) {
+    DeletetionInBST(int key) {
         root = new Node(key);
     }
 
     // Constructor
-    DeleteNodeFromCustomBinarySearchTree() {
+    DeletetionInBST() {
         root = null;
     }
 
     public static void main(String[] args) {
-        DeleteNodeFromCustomBinarySearchTree bst = new DeleteNodeFromCustomBinarySearchTree();
+        DeletetionInBST bst = new DeletetionInBST();
 
         bst.insert(8);
         bst.insert(10);
@@ -26,10 +26,17 @@ public class DeleteNodeFromCustomBinarySearchTree {
         bst.insert(1);
         bst.insert(4);
         bst.insert(13);
+
         System.out.println("-------------------");
-        System.out.println("In Order Traversal");
+        System.out.println("In Order Traversal(Left,Root,Right)");
         bst.inOrderTraversal();
         System.out.println();
+
+        System.out.println("-------------------");
+        System.out.println("Pre Order Traversal(Root,Left,Right)");
+        bst.preOrderTraversal();
+        System.out.println();
+
         bst.delete(13);
         bst.inOrderTraversal();
         System.out.println();
@@ -45,15 +52,26 @@ public class DeleteNodeFromCustomBinarySearchTree {
 
         if (root == null) return;
         doInOrder(root.left);
-        System.out.print(root.data + " ");
+        System.out.print(root.key + " ");
         doInOrder(root.right);
+    }
+
+    private void preOrderTraversal() {
+        doPreOrder(this.root);
+    }
+
+    private void doPreOrder(Node root) {
+        if (root == null) return;
+        System.out.print(root.key + " ");
+        doPreOrder(root.left);
+        doPreOrder(root.right);
     }
 
 
     /**
      * Method is used to add the node into the BST.
      *
-     * @param data data of the node.
+     * @param data key of the node.
      */
     private void insert(int data) {
         System.out.print("[input: " + data + "]");
@@ -71,7 +89,7 @@ public class DeleteNodeFromCustomBinarySearchTree {
 
     private Node insertNode(Node root, int data) {
         Node tempNode;
-        if (root.data >= data) {
+        if (root.key >= data) {
             System.out.print(" [L]");
             if (root.left == null) {
                 root.left = new Node(data);
@@ -97,12 +115,12 @@ public class DeleteNodeFromCustomBinarySearchTree {
 
     private Node deleteNode(Node root, int data) {
         if (root == null) {
-            return root;
+            return null;
         }
 
-        if (data < root.data) {
+        if (data < root.key) {
             root.left = deleteNode(root.left, data);
-        } else if (data > root.data) {
+        } else if (data > root.key) {
             root.right = deleteNode(root.right, data);
         } else {
             // handle all the three cases of deletion
@@ -122,11 +140,10 @@ public class DeleteNodeFromCustomBinarySearchTree {
                 //node with two nodes
                 //search for min number in right sub tree
                 int minValue = minValue(root.right);
-                root.data = minValue;
+                root.key = minValue;
                 root.right = deleteNode(root.right, minValue);
                 System.out.println("deleting " + data);
             }
-
         }
         return root;
     }
@@ -135,15 +152,15 @@ public class DeleteNodeFromCustomBinarySearchTree {
         if (node.left != null) {
             return minValue(node.left);
         }
-        return node.data;
+        return node.key;
     }
 
     private static class Node {
-        int data;
+        int key;
         Node left, right;
 
-        public Node(int data) {
-            this.data = data;
+        public Node(int key) {
+            this.key = key;
             this.left = right = null;
         }
 

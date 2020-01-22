@@ -4,6 +4,6 @@ import com.example.designpatterndemo.design_patterns.creational_pattern.abstract
 
 class Square : Shape {
     override fun draw() {
-        System.out.println("Inside draw method: Class Square")
+        println("Inside draw method: Class Square")
     }
 }

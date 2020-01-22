@@ -3,6 +3,7 @@ package com.example.designpatterndemo.problems.config_handling_with_fragments
 import android.content.Context
 import android.os.AsyncTask
 import android.os.Bundle
+import android.os.SystemClock
 import android.support.v4.app.Fragment
 
 
@@ -83,12 +84,12 @@ class TaskFragment : Fragment() {
          */
         override fun doInBackground(vararg params: Unit?) {
 
-            /*for (i in 100) {
+            for (i in 1..100) {
                 if (!isCancelled) {
                     SystemClock.sleep(100)
                     publishProgress(i)
                 }
-            }*/
+            }
         }
 
         override fun onProgressUpdate(vararg values: Int?) {

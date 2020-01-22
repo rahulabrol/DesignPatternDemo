@@ -1,5 +1,6 @@
 package com.example.designpatterndemo.problems;
 
+import android.app.IntentService;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Handler;
@@ -25,6 +26,7 @@ public abstract class CustomIntentService extends Service {
     public CustomIntentService(String name) {
         super();
         this.mName = name;
+//        IntentService
 
     }
 

@@ -3,6 +3,6 @@ package com.example.designpatterndemo.design_patterns.creational_pattern.abstrac
 class Rectangle : Shape {
 
     override fun draw() {
-        System.out.println("Inside draw method: Class Rectangle")
+        println("Inside draw method: Class Rectangle")
     }
 }

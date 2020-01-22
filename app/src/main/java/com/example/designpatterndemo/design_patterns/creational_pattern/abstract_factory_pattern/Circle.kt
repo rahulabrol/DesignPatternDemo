@@ -4,6 +4,6 @@ package com.example.designpatterndemo.design_patterns.creational_pattern.abstrac
 class Circle : Shape {
 
     override fun draw() {
-        System.out.println("Inside draw method: Class Circle")
+        println("Inside draw method: Class Circle")
     }
 }

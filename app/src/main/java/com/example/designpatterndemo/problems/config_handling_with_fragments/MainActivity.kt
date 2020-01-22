@@ -2,6 +2,7 @@ package com.example.designpatterndemo.problems.config_handling_with_fragments
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.widget.TextView
 import com.example.designpatterndemo.R
 
 
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity(), TaskFragment.TaskCallbacks {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        findViewById<TextView>(R.id.textView).text = "fragment"
         val fm = supportFragmentManager
         mTaskFragment = fm.findFragmentByTag(TAG_TASK_FRAGMENT) as TaskFragment
 
