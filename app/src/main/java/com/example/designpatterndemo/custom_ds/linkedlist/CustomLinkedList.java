@@ -7,6 +7,7 @@ public class CustomLinkedList {
     private static int counter;
     // reference to the head Node.
     private Node head;
+
     // LinkedList constructor
     public CustomLinkedList() {
         // this is an empty list,so the reference to the head node

@@ -4,6 +4,12 @@ package com.example.designpatterndemo.sorting;
  * Bubble Sort is the simplest sorting algorithm that
  * works by repeatedly swapping the adjacent elements if
  * they are in wrong order
+ * <p>
+ * Worst complexity: n^2
+ * Average complexity: n^2
+ * Best complexity: n
+ * <p>
+ * Space complexity: 1
  */
 public class BubbleSort {
 
