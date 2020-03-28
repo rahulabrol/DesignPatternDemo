@@ -4,7 +4,7 @@ import android.content.Context
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.SystemClock
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 
 
 /**
@@ -24,7 +24,7 @@ class TaskFragment : Fragment() {
     }
 
     private var mCallbacks: TaskCallbacks? = null
-    private var mTask: DummyTask?=null
+    private var mTask: DummyTask? = null
 
     /**
      * Hold a reference to the parent Activity so we can report the
@@ -32,7 +32,7 @@ class TaskFragment : Fragment() {
      * will pass us a reference to the newly created Activity after
      * each configuration change.
      */
-    override fun onAttach(activity: Context?) {
+    override fun onAttach(activity: Context) {
         super.onAttach(activity)
         mCallbacks = activity as TaskCallbacks?
     }

@@ -2,7 +2,8 @@ package com.example.designpatterndemo
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import android.os.PersistableBundle
+import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import android.widget.TextView
 
@@ -49,12 +50,12 @@ class MainActivity : AppCompatActivity() {
         Log.e(TAG, "onDestroy called")
     }
 
-    override fun onSaveInstanceState(outState: Bundle?) {
+    override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         Log.e(TAG, "onSaveInstanceState called")
     }
 
-    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
         Log.e(TAG, "onRestoreInstanceState called")
     }
