@@ -7,6 +7,8 @@ public class PrototypePatternDemo {
         System.out.println("\n");
 
         Student student2 = (Student) student.getClone();
+//        student2.setName("Rohit");
+//        student2.setRollNo(1091);
         student2.showRecord();
         System.out.println("\n");
 

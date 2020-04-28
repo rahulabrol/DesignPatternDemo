@@ -28,6 +28,13 @@ public class Student implements Prototype {
     private String className;
     private String course;
 
+    public Student(Student student) {
+        this.name = student.name;
+        this.rollNo = student.rollNo;
+        this.className = student.className;
+        this.course = student.course;
+    }
+
     private Student() {
         System.out.println("   Student Records   ");
         System.out.println("---------------------------------------------");
@@ -49,6 +56,6 @@ public class Student implements Prototype {
 
     @Override
     public Prototype getClone() {
-        return new Student(name, rollNo, className, course);
+        return new Student(this);
     }
 }
