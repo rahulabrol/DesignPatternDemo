@@ -1,5 +1,6 @@
 package com.example.designpatterndemo
 
+import com.example.designpatterndemo.sorting.QuickSort
 import org.junit.Test
 
 /**
@@ -10,6 +11,7 @@ import org.junit.Test
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        Assignment.main(null)
+        QuickSort.main(null)
+//        Assignment.main(null)
     }
 }
