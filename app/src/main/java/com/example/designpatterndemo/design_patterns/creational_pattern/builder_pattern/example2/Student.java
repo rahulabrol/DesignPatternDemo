@@ -2,15 +2,10 @@ package com.example.designpatterndemo.design_patterns.creational_pattern.builder
 
 /*
   While Considering the builder pattern you need to look weather the object is having
-
-  Complex constructor.
-  Multiple constructor having combinations of multiple parameter with nested objects
-
-  Large number of parameters.
-  having large number of field parameter is also the key point to consider.
-
-  Immutability.
-  You can force the immutability to the object once you are done with creation of object.
+  Complex constructor.Multiple constructor having combinations of multiple parameter with nested
+  objects. Large number of parameters having large number of field parameter is also the key point
+  to consider immutability.You can force the immutability to the object once you are done with
+  creation of object.
  */
 public class Student {
 

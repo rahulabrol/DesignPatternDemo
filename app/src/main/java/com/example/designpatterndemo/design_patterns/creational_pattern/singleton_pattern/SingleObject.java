@@ -28,8 +28,8 @@ enum SingletonFactory {
  * Early Instantiation: creation of instance at load time.
  * Lazy Instantiation: creation of instance when required.
  * <p>
- * If singleton class is loaded by two classloaders,
- * two instance of singleton class will be created, one for each classloader.
+ * If singleton class is loaded by two class-loaders,
+ * two instance of singleton class will be created, one for each class-loader.
  */
 public class SingleObject implements Serializable, Cloneable {
 
@@ -41,8 +41,8 @@ public class SingleObject implements Serializable, Cloneable {
     }
 
     public static SingleObject getInstance() {
-        SingletonFactory sig = SingletonFactory.getInstance();
-        sig.display();
+//        SingletonFactory sig = SingletonFactory.getInstance();
+//        sig.display();
         if (singleObject == null) {
             synchronized (SingleObject.class) {
                 if (singleObject == null) {

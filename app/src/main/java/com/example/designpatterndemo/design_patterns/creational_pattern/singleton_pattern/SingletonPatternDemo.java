@@ -30,7 +30,7 @@ public class SingletonPatternDemo {
             SingletonFactory singletonFactory = SingletonFactory.INSTANCE;
             SingletonFactory singletonFactory2 = SingletonFactory.INSTANCE;
 
-            //solution to this is Enum make it enum
+            //solution to this is Enum-make it enum
             System.out.println("Reflection solution instance1.hashCode():- " + singletonFactory.hashCode());
             System.out.println("Reflection solution instance2.hashCode():- " + singletonFactory2.hashCode());
         } catch (IllegalAccessException e1) {
@@ -42,18 +42,19 @@ public class SingletonPatternDemo {
         }
 
 
-        //METHOD 2-- Break singleton by serilizable
+        //METHOD 2-- Break singleton by serializable
         try {
             SingleObject instance1 = SingleObject.getInstance();
             ObjectOutput out = new ObjectOutputStream(new FileOutputStream("file.text"));
             out.writeObject(instance1);
             out.close();
 
-            // deserailize from file to object
+            // deserialize from file to object
             ObjectInput in = new ObjectInputStream(new FileInputStream("file.text"));
 
             SingleObject instance2 = (SingleObject) in.readObject();
             in.close();
+
             // Solution to this is override readResolve method
             System.out.println("Serializable instance1 hashCode:- " + instance1.hashCode());
             System.out.println("Serializable instance2 hashCode:- " + instance2.hashCode());

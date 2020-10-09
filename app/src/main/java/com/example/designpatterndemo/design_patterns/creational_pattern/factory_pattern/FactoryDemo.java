@@ -11,5 +11,9 @@ public class FactoryDemo {
         shape2.draw();
         Shape shape3 = FactoryProvider.getShape("SQUARE");
         shape3.draw();
+        // null case
+        Shape shape4 = FactoryProvider.getShape("TRIANGLE");
+        if (shape4 != null)
+            shape4.draw();
     }
 }

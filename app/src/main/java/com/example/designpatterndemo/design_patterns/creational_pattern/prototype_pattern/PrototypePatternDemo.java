@@ -12,8 +12,8 @@ public class PrototypePatternDemo {
         student2.showRecord();
         System.out.println("\n");
 
-        System.out.println("hash code for student: " + student.hashCode());
-        System.out.println("hash code for student: " + student2.hashCode());
+        System.out.println("hash code for student1: " + student.hashCode());
+        System.out.println("hash code for student2: " + student2.hashCode());
 
 
     }

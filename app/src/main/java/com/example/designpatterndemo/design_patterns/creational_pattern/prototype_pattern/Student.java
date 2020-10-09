@@ -50,7 +50,6 @@ public class Student implements Prototype {
     }
 
     void showRecord() {
-
         System.out.println(rollNo + "\t" + name + "\t" + className + "\t\t" + course);
     }
 

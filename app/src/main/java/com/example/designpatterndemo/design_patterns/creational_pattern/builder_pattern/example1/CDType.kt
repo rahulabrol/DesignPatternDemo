@@ -1,4 +1,4 @@
-package com.example.designpatterndemo.design_patterns.creational_pattern.builder_pattern.Example1
+package com.example.designpatterndemo.design_patterns.creational_pattern.builder_pattern.example1
 
 class CDType {
     private val items = ArrayList<Packing>()

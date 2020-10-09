@@ -3,12 +3,22 @@ package com.example.designpatterndemo.design_patterns.creational_pattern.abstrac
 public class AbstractFactoryPatternDemo {
 
     public static void main(String[] args) {
-        AbstractFactory shapeFactory=FactoryProvider.getFactory("SHAPE");
-        Shape shape = shapeFactory.getShape("CIRCLE");
-        shape.draw();
+        AbstractFactory shapeFactory = FactoryProvider.getFactory("SHAPE");
+        Shape shape;
+        if (shapeFactory != null) {
+            shape = shapeFactory.getShape("CIRCLE");
+            if (shape != null) {
+                shape.draw();
+            }
+        }
 
-        AbstractFactory  colorFactory=FactoryProvider.getFactory("COLOR");
-        Color color = colorFactory.getColor("BLUE");
-        color.fill();
+        AbstractFactory colorFactory = FactoryProvider.getFactory("COLOR");
+        Color color;
+        if (colorFactory != null) {
+            color = colorFactory.getColor("BLUE");
+            if (color != null) {
+                color.fill();
+            }
+        }
     }
 }

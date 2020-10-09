@@ -7,14 +7,18 @@ class ShapeFactory : AbstractFactory() {
             return null
         }
 
-        if (shapeType.equals("RECTANGLE", ignoreCase = true)) {
-            return Rectangle()
-        } else if (shapeType.equals("CIRCLE", ignoreCase = true)) {
-            return Circle()
-        } else if (shapeType.equals("SQUARE", ignoreCase = true)) {
-            return Square()
+        return when {
+            shapeType.equals("RECTANGLE", ignoreCase = true) -> {
+                Rectangle()
+            }
+            shapeType.equals("CIRCLE", ignoreCase = true) -> {
+                Circle()
+            }
+            shapeType.equals("SQUARE", ignoreCase = true) -> {
+                Square()
+            }
+            else -> null
         }
-        return null
     }
 
     override fun getColor(colorType: String?): Color? {
