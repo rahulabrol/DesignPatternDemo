@@ -6,6 +6,9 @@ import com.example.designpatterndemo.design_patterns.creational_pattern.builder_
 import com.example.designpatterndemo.design_patterns.creational_pattern.factory_pattern.FactoryDemo
 import com.example.designpatterndemo.design_patterns.creational_pattern.prototype_pattern.PrototypePatternDemo
 import com.example.designpatterndemo.design_patterns.creational_pattern.singleton_pattern.SingletonPatternDemo
+import com.example.designpatterndemo.design_patterns.structural_pattern.adapter_pattern.AdapterPatternDemo
+import com.example.designpatterndemo.design_patterns.structural_pattern.facade_pattern.FacadePatternDemo
+import com.example.designpatterndemo.design_patterns.structural_pattern.proxy_pattern.ProxyPatternDemo
 import org.junit.Test
 
 /**
@@ -38,6 +41,20 @@ class ExampleUnitTest {
         println("--------------------------------Prototype DP--------------------------------")
         //Prototype Design Pattern
         PrototypePatternDemo.main(null)
+    }
+
+    @Test
+    fun `test structural design patterns here`() {
+        println("=====================Structural Design Pattern======================")
+        println("--------------------------------Adapter DP--------------------------------")
+        //Adapter Design pattern
+        AdapterPatternDemo.main(null)
+        println("--------------------------------Proxy DP--------------------------------")
+        //Proxy Design pattern
+        ProxyPatternDemo.main(null)
+        println("--------------------------------Facade DP--------------------------------")
+        //Facade Design pattern
+        FacadePatternDemo.main(null)
     }
 
 

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * A facede pattern says that just provide a unified and simplified interface to a set of interface in a subsystem,
+ * A facade pattern says that just provide a unified and simplified interface to a set of interface in a subsystem,
  * therefore it hides the complexities of the subsystem from the client.In other words facade pattern describes a higher
  * level interface that makes the sub-system easier to use.
  * <p>
@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
  * are dependent, then you can simplify the dependencies between them by making them communicate with each other solely
  * through their facades.
  */
-public class FacedePatternDemo {
+public class FacadePatternDemo {
 
     public static void main(String[] args) throws IOException {
         int choice;
