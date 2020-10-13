@@ -56,9 +56,9 @@ public class MergeSort {
      * Second subarray is arr[m+1..r]
      *
      * @param arr array
-     * @param l   sub array
+     * @param l   left sub array
      * @param m   median
-     * @param r   right
+     * @param r   right sub array
      */
     private void merge(int[] arr, int l, int m, int r) {
         // Find sizes of two subarrays to be merged

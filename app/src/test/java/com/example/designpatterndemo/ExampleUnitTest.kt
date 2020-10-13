@@ -10,6 +10,8 @@ import com.example.designpatterndemo.design_patterns.structural_pattern.adapter_
 import com.example.designpatterndemo.design_patterns.structural_pattern.decorator_pattern.DecoratorPatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.facade_pattern.FacadePatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.proxy_pattern.ProxyPatternDemo
+import com.example.designpatterndemo.sorting.MergeSort
+import com.example.designpatterndemo.sorting.QuickSort
 import org.junit.Test
 
 /**
@@ -19,7 +21,10 @@ import org.junit.Test
 class ExampleUnitTest {
     @Test
     fun `test sorting algorithms here`() {
-//        QuickSort.main(null)
+        //Quick Sort
+        QuickSort.main(null)
+        //Merge Sort
+        MergeSort.main(null)
     }
 
     @Test
