@@ -10,21 +10,29 @@ import com.example.designpatterndemo.design_patterns.structural_pattern.adapter_
 import com.example.designpatterndemo.design_patterns.structural_pattern.decorator_pattern.DecoratorPatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.facade_pattern.FacadePatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.proxy_pattern.ProxyPatternDemo
-import com.example.designpatterndemo.sorting.MergeSort
-import com.example.designpatterndemo.sorting.QuickSort
+import com.example.designpatterndemo.sorting.*
 import org.junit.Test
 
 /**
  * To run main method use this class for checking
- * the functionality of the class
+ * the functionality of the class.
  */
 class ExampleUnitTest {
+
     @Test
     fun `test sorting algorithms here`() {
+        //Bubble Sort
+        BubbleSort.main(null)
+        //Insertion Sort
+        InsertionSort.main(null)
+        //Selection Sort
+        SelectionSort.main(null)
         //Quick Sort
         QuickSort.main(null)
         //Merge Sort
         MergeSort.main(null)
+        //Redix Sort
+        RedixSort.main(null)
     }
 
     @Test
@@ -65,6 +73,4 @@ class ExampleUnitTest {
         // Decorator Design Pattern
         DecoratorPatternDemo.main(null)
     }
-
-
 }
