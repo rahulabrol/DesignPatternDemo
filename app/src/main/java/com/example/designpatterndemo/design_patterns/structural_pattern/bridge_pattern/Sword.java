@@ -1,7 +1,7 @@
 package com.example.designpatterndemo.design_patterns.structural_pattern.bridge_pattern;
 
 public class Sword implements Weapon {
-    private Enchantment enchantment;
+    private final Enchantment enchantment;
 
     public Sword(Enchantment enchantment) {
         this.enchantment = enchantment;

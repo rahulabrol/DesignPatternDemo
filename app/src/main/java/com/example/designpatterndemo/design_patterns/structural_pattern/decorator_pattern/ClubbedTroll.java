@@ -5,7 +5,7 @@ package com.example.designpatterndemo.design_patterns.structural_pattern.decorat
  */
 public class ClubbedTroll implements Troll {
 
-    private Troll decorated;
+    private final Troll decorated;
 
     public ClubbedTroll(Troll decorated) {
         this.decorated = decorated;
