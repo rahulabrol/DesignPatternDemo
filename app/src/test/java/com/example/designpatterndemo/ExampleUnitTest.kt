@@ -8,6 +8,7 @@ import com.example.designpatterndemo.design_patterns.creational_pattern.prototyp
 import com.example.designpatterndemo.design_patterns.creational_pattern.singleton_pattern.SingletonPatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.adapter_pattern.AdapterPatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.bridge_pattern.BridgePatternDemo
+import com.example.designpatterndemo.design_patterns.structural_pattern.composite_pattern.CompositePatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.decorator_pattern.DecoratorPatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.facade_pattern.FacadePatternDemo
 import com.example.designpatterndemo.design_patterns.structural_pattern.proxy_pattern.ProxyPatternDemo
@@ -76,5 +77,8 @@ class ExampleUnitTest {
         println("--------------------------------Bridge DP--------------------------------")
         // Bridge Design Pattern
         BridgePatternDemo.main(null)
+        println("--------------------------------Composite DP--------------------------------")
+        // Composite Design Pattern
+        CompositePatternDemo.main(null)
     }
 }
