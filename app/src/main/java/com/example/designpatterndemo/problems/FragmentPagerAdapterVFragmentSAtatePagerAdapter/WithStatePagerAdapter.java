@@ -1,12 +1,14 @@
 package com.example.designpatterndemo.problems.FragmentPagerAdapterVFragmentSAtatePagerAdapter;
 
 import android.os.Bundle;
+import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.designpatterndemo.R;
 
@@ -70,6 +72,7 @@ public class WithStatePagerAdapter extends AppCompatActivity {
 
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = findViewById(R.id.viewPager);
+        mPager.setOffscreenPageLimit(4);
         pagerAdapter = new StatePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(pagerAdapter);
     }
@@ -93,12 +96,16 @@ public class WithStatePagerAdapter extends AppCompatActivity {
      */
     private class StatePagerAdapter extends FragmentStatePagerAdapter {
 
+        private final String TAG = "StatePagerAdapter";
+
         StatePagerAdapter(FragmentManager fm) {
             super(fm);
+            Log.e(TAG, "Constructor");
         }
 
         @Override
         public Fragment getItem(int position) {
+//            Log.e(TAG, "getItem");
             switch (position) {
                 default:
                 case 0:
@@ -114,6 +121,7 @@ public class WithStatePagerAdapter extends AppCompatActivity {
 
         @Override
         public int getCount() {
+//            Log.e(TAG, "getCount");
             return NUM_PAGES;
         }
     }

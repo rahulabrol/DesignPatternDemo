@@ -17,16 +17,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>-->
+        <activity android:name=".SubActivity" />
 
+        <!--  <activity android:name=".problems.FragmentPagerAdapterVFragmentSAtatePagerAdapter.WithStatePagerAdapter">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".problems.FragmentPagerAdapterVFragmentSAtatePagerAdapter.WithStatePagerAdapter">
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+          </activity>-->
+
+        <activity
+                android:name=".problems.launchmode.ActivityA"
+                android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SubActivity" />
+        <activity
+                android:name=".problems.launchmode.ActivityB"
+                android:launchMode="singleTop" />
+        <activity
+                android:name=".problems.launchmode.ActivityC"
+                android:launchMode="standard" />
+        <activity
+                android:name=".problems.launchmode.ActivityD"
+                android:launchMode="standard" />
 
 
     </application>

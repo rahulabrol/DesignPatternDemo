@@ -42,7 +42,7 @@ public class CustomLinkedList {
      */
     public void add(Object data) {
 
-        // Initialize Node only incase of 1st element
+        // Initialize Node only in case of 1st element
         if (head == null) {
             head = new Node(data);
         }
