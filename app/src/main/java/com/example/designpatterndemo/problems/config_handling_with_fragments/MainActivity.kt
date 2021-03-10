@@ -1,8 +1,9 @@
 package com.example.designpatterndemo.problems.config_handling_with_fragments
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import android.util.Log
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.designpatterndemo.R
 
 
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity(), TaskFragment.TaskCallbacks {
 
     companion object {
         private const val TAG_TASK_FRAGMENT = "task_fragment"
+        private const val TAG = "MainActivity"
 
     }
 
@@ -39,6 +41,11 @@ class MainActivity : AppCompatActivity(), TaskFragment.TaskCallbacks {
         }
 
         // TODO: initialize views, restore saved state, etc.
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.e(TAG, "called onResume(")
     }
 
     // The four methods below are called by the TaskFragment when new

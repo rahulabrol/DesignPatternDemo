@@ -6,7 +6,6 @@ import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.designpatterndemo.R
-import com.example.designpatterndemo.SubActivity
 
 /**
  * Created by Rahul Abrol on 24/1/21.
@@ -18,7 +17,11 @@ class ActivityA : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_a)
         findViewById<TextView>(R.id.textView2).setOnClickListener {
-            startActivity(Intent(this@ActivityA, ActivityB::class.java))
+//            startActivity(Intent(this@ActivityA, ActivityB::class.java))
+
+            for (i in 1..100){
+                startService(Intent(this@ActivityA, MyService::class.java))
+            }
         }
         Log.e(TAG, "onCreate called")
     }
