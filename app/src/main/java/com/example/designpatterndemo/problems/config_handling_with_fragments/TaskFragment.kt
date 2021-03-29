@@ -1,9 +1,12 @@
 package com.example.designpatterndemo.problems.config_handling_with_fragments
 
 import android.content.Context
+import android.content.Intent
+import android.media.RingtoneManager
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.SystemClock
+import android.util.Log
 import androidx.fragment.app.Fragment
 
 
@@ -50,7 +53,17 @@ class TaskFragment : Fragment() {
         // Create and execute the background task.
         mTask = DummyTask()
         mTask!!.execute()
+//        val intent = Intent(RingtoneManager.ACTION_RINGTONE_PICKER)
+//        startActivityForResult(intent,100)
     }
+
+//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+////        super.onActivityResult(requestCode, resultCode, data)
+//        Log.e("TAG", "FRG out")
+//        if(resultCode == 100){
+//            Log.e("TAG", "FRG in 100")
+//        }
+//    }
 
     /**
      * Set the callback to null so we don't accidentally leak the

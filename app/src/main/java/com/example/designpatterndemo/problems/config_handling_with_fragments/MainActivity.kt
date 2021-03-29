@@ -1,5 +1,6 @@
 package com.example.designpatterndemo.problems.config_handling_with_fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity(), TaskFragment.TaskCallbacks {
 
         findViewById<TextView>(R.id.textView).text = "fragment"
         val fm = supportFragmentManager
-        mTaskFragment = fm.findFragmentByTag(TAG_TASK_FRAGMENT) as TaskFragment
+        if (fm.findFragmentByTag(TAG_TASK_FRAGMENT) is TaskFragment)
+            mTaskFragment = fm.findFragmentByTag(TAG_TASK_FRAGMENT) as TaskFragment
 
         // If the Fragment is non-null, then it is currently being
         // retained across a configuration change.
@@ -42,6 +44,14 @@ class MainActivity : AppCompatActivity(), TaskFragment.TaskCallbacks {
 
         // TODO: initialize views, restore saved state, etc.
     }
+
+//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+////        super.onActivityResult(requestCode, resultCode, data)
+//        Log.e(TAG, "Activity out")
+//        if (requestCode == 100) {
+//            Log.e(TAG, "Activity in 100")
+//        }
+//    }
 
     override fun onResume() {
         super.onResume()
