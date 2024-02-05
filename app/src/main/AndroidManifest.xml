@@ -9,7 +9,9 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,6 +30,7 @@
 
         <activity
                 android:name=".problems.launchmode.ActivityA"
+                android:exported="true"
                 android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
