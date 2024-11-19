@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
-            android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AzureBatchExperiments"
+        tools:targetApi="31">
         <activity
-                android:name=".MainActivity"
-                android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name=".MainActivity"
+            android:exported="true">
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
         </activity>
         <activity android:name=".SubActivity" />
 
-        <!--  <activity android:name=".problems.FragmentPagerAdapterVFragmentSAtatePagerAdapter.WithStatePagerAdapter">
-              <intent-filter>
-                  <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".problems.FragmentPagerAdapterVFragmentSAtatePagerAdapter.WithStatePagerAdapter"
+            android:exported="true">
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-                  <category android:name="android.intent.category.LAUNCHER" />
-              </intent-filter>
-          </activity>-->
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
+        </activity>
 
         <activity
-                android:name=".problems.launchmode.ActivityA"
-                android:exported="true"
-                android:launchMode="standard">
+            android:name=".problems.launchmode.ActivityA"
+            android:exported="true"
+            android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,15 +44,19 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".problems.launchmode.ActivityB"
-                android:launchMode="singleTop" />
+            android:name=".problems.launchmode.ActivityB"
+            android:launchMode="singleTop" />
         <activity
-                android:name=".problems.launchmode.ActivityC"
-                android:launchMode="standard" />
+            android:name=".problems.launchmode.ActivityC"
+            android:launchMode="standard" />
         <activity
-                android:name=".problems.launchmode.ActivityD"
-                android:launchMode="standard" />
+            android:name=".problems.launchmode.ActivityD"
+            android:launchMode="standard" />
 
         <service android:name=".problems.launchmode.MyService" />
+        <service
+            android:name=".experiments.NewProcessService"
+            android:process="NewProcess" />
     </application>
+
 </manifest>
