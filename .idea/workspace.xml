@@ -10,289 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd1f83e4-a8ca-4395-bd14-790cb3931f3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/SubActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/as.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/binary_tree/CustomBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/binary_tree/DeletetionInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/linkedlist/CustomLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/linkedlist/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/linkedlist/SortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/behavioural_pattern/F.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/behavioural_pattern/chain_of_responsibility/ChainOfResponsibilityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/classes_used _patterns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/F.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/AbstractFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Blue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Circle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/ColorFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/FactoryProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Green.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Rectangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Red.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Shape.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/ShapeFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Square.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/BuilderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/CD.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/CDBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/CDType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Company.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Packing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Samsung.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Sony.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example2/BuilderPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Circle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/factory_pattern/FactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/factory_pattern/FactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Rectangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Shape.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Square.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/PrototypePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/link.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/singleton_pattern/SingleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/creational_pattern/singleton_pattern/SingletonPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/F.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/AdapterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/Captain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/FishingBoat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/FishingBoatAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/RowingBoat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/BridgePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Enchantment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/FlyingEnchantment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Hammer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/SoulEatingEnchantment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/composite_pattern/CompositePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Letter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/composite_pattern/LetterComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Sentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/ClubbedTroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/DecoratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/SimpleTroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/facade_pattern/BlackBerry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/facade_pattern/FacadePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/facade_pattern/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/facade_pattern/MobileShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/facade_pattern/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/facade_pattern/ShopKeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/AlchemistShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/FlyweightPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/HealingPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/HolyWaterPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/InvisibilityPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/PoisonPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/Potion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/PotionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/PotionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/StrengthPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/ProxyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/protection_proxy/Internet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/protection_proxy/ProxyInternet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/protection_proxy/RealInternet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/NewProcessService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/memory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/logical_patterns/FindFirstTwoElementWithoutPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/logical_patterns/FirstRepeatingLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/logical_patterns/PrintRChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/logical_patterns/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/CustomIntentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/WithPagerAdapterActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/WithStatePagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/StringMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/as.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/config_handling_with_fragments/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/config_handling_with_fragments/TaskFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/launchmode/ActivityA.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/launchmode/ActivityB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/launchmode/ActivityC.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/launchmode/ActivityD.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/launchmode/MyService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/multi_threading/example1/AlphabetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/multi_threading/example1/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/multi_threading/example1/RunnableA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/multi_threading/example1/RunnableB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/multi_threading/example1/Thread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/multi_threading/mt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/sorting/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/sorting/RedixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/sorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/rahul/designpatterndemo/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/toppr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/file.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/designpatterndemo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/designpatterndemo/TEst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/Assignment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/SubActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/custom_ds/as.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/custom_ds/binary_tree/CustomBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/custom_ds/binary_tree/DeletetionInBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/custom_ds/linkedlist/CustomLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/custom_ds/linkedlist/ReverseLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/custom_ds/linkedlist/SortedLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/behavioural_pattern/F.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/behavioural_pattern/chain_of_responsibility/ChainOfResponsibilityDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/classes_used _patterns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/F.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/AbstractFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/AbstractFactoryPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Blue.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Circle.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Color.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/ColorFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/FactoryProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Green.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Rectangle.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Red.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Shape.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/ShapeFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/abstract_factory_pattern/Square.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/BuilderDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/CD.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/CDBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/CDType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Company.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Packing.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Samsung.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example1/Sony.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example2/BuilderPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/builder_pattern/example2/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Circle.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/factory_pattern/FactoryDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/factory_pattern/FactoryProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Rectangle.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Shape.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/factory_pattern/Square.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/Prototype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/PrototypePatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/prototype_pattern/link.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/singleton_pattern/SingleObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/creational_pattern/singleton_pattern/SingletonPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/F.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/AdapterPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/Captain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/FishingBoat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/FishingBoatAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/adapter_pattern/RowingBoat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/BridgePatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Enchantment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/FlyingEnchantment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Hammer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/SoulEatingEnchantment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Sword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/bridge_pattern/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/composite_pattern/CompositePatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Letter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/composite_pattern/LetterComposite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Messenger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Sentence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/composite_pattern/Word.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/ClubbedTroll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/DecoratorPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/SimpleTroll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/decorator_pattern/Troll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/facade_pattern/BlackBerry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/facade_pattern/FacadePatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/facade_pattern/Iphone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/facade_pattern/MobileShop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/facade_pattern/Samsung.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/facade_pattern/ShopKeeper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/AlchemistShop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/FlyweightPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/HealingPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/HolyWaterPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/InvisibilityPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/PoisonPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/Potion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/PotionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/PotionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/flyweight_pattern/StrengthPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/ProxyPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/protection_proxy/Internet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/protection_proxy/ProxyInternet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/design_patterns/structural_pattern/proxy_pattern/protection_proxy/RealInternet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/logical_patterns/FindFirstTwoElementWithoutPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/logical_patterns/FirstRepeatingLetter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/logical_patterns/PrintRChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/logical_patterns/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/CustomIntentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/Fragment4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/WithPagerAdapterActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/FragmentPagerAdapterVFragmentSAtatePagerAdapter/WithStatePagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/StringMatching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/as.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/config_handling_with_fragments/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/config_handling_with_fragments/TaskFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/launchmode/ActivityA.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/launchmode/ActivityB.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/launchmode/ActivityC.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/launchmode/ActivityD.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/launchmode/MyService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/multi_threading/example1/AlphabetExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/multi_threading/example1/Number.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/multi_threading/example1/RunnableA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/multi_threading/example1/RunnableB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/multi_threading/example1/Thread3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/problems/multi_threading/mt.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/sorting/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/sorting/HeapSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/sorting/InsertionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/sorting/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/sorting/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/sorting/RedixSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/designpatterndemo/sorting/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/designpatterndemo/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="update-project-files" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -359,12 +78,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="update-project-files" />
-                    <option name="lastUsedInstant" value="1732041315" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1732042520" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1732041314" />
+                    <option name="branchName" value="update-project-files" />
+                    <option name="lastUsedInstant" value="1732041315" />
                   </RecentBranch>
                 </list>
               </option>
@@ -413,7 +132,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;update-project-files&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/abrol/AndroidStudioProjects/DesignPatternDemo/app/src/main/java/com/rahul/designpatterndemo&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
@@ -674,6 +393,8 @@
         <item itemvalue="Gradle.ExampleUnitTest.test structural design patterns here" />
         <item itemvalue="Android App.ActivityB" />
         <item itemvalue="Android App.ActivityA" />
+        <item itemvalue="Gradle.ExampleUnitTest.test structural design patterns here" />
+        <item itemvalue="Android App.ActivityB" />
       </list>
     </recent_temporary>
   </component>
