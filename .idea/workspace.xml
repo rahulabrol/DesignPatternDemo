@@ -22,69 +22,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd1f83e4-a8ca-4395-bd14-790cb3931f3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/coroutines/Problem2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/coroutines/Problems.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/DataStructureProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/IRemoteService.aidl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/MyApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/data/local/DatabaseService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/data/local/FileStorageService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/data/remote/HttpClient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/data/remote/NetworkService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/component/ActivityComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/component/ApplicationComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/component/FragmentComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/module/ActivityModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/module/ApplicationModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/module/FragmentModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/qualifers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/di/scopes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/ui/home/HomeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/ui/home/HomeViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/ui/maiin/DumMyActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/experiments/dagger/ui/maiin/DumMyViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dummy_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidPluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxCoreLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxEspressoLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinPluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidPluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinPluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/metadata.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/sources/org/gradle/accessors/dm/LibrariesForLibs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/dependencies-accessors/d4b6d22156583c8b7b55c4fd04fbb4c58c762f42/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/CustomQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/CustomStackWithArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/appInsightsSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appInsightsSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/as.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/custom_ds/as.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/as.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rahul/designpatterndemo/problems/as.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +157,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -258,6 +208,7 @@
       <option name="MODE" value="default_activity" />
       <option name="RESTORE_ENABLED" value="false" />
       <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
       <option name="CLEAR_LOGCAT" value="true" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
