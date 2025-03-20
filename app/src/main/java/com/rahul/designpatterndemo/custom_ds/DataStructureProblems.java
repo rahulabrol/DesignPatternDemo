@@ -12,7 +12,7 @@ public class DataStructureProblems {
 
     public static void main(String[] args) {
         // int arr[] = {0,0,1,1,1,2,2,3,3,4};
-        // System.out.println(removeDuplicates(arr));
+//         System.out.println(removeDuplicates(arr));
 
         // int arr[] = {0, 1, 0, 3, 12};
         // int[] modifiedArr = moveZeros(arr);
@@ -20,8 +20,10 @@ public class DataStructureProblems {
         //   System.out.println(modifiedArr[i]);
         // }
 
-        // int arr[] = {12, 35, 1, 10, 34, 1};
-        // int arr[] = {10, 10, 10, 10};
+//        int[] arr = {10, 20, 4, 45, 99, 99, 100, 67, 89};
+//        firstThreeLargest(arr);
+//        int[] arr = {12, 35, 1, 10, 34, 1};
+//         int[] arr = {10, 10, 10, 10};
         // System.out.println(secondLargest(arr));
 
 //        Node node = new Node(1);
@@ -56,8 +58,41 @@ public class DataStructureProblems {
 
 //        System.out.println("isPalindrome: " + isPalindrome("mada"));
 //        System.out.println("isAnagram: " + isAnagram("listen", "silent"));
-        System.out.println(firstNonRepeatingCharacter("loveleetcode"));
+//        System.out.println(firstNonRepeatingCharacter("loveleetcode"));
 
+//        duplicateCharacters("programming");
+        String s1 = "waterbottle";
+        String s2 = "erbottlewat";
+
+        System.out.println(isStringRotationOfAnother(s1, s2)); // Output: true
+    }
+
+    /**
+     * Explanation:
+     * Concatenate s1 with itself → "waterbottlewaterbottle"
+     * If s2 is a substring of the concatenated string, it's a rotation.
+     * Use .contains() to check efficiently.
+     *
+     * @param str1
+     * @param str2
+     * @return true or false
+     */
+    static boolean isStringRotationOfAnother(String str1, String str2) {
+        if (str1.length() != str2.length() || str1.isEmpty()) return false;
+        String str = str1 + str1;
+        return str.contains(str2);
+    }
+
+    static void duplicateCharacters(String str) {
+        Map<Character, Integer> characterIntegerMap = new HashMap<>();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            characterIntegerMap.put(ch, characterIntegerMap.getOrDefault(ch, 0) + 1);
+        }
+        for (Map.Entry<Character, Integer> entry : characterIntegerMap.entrySet()) {
+            if (entry.getValue() > 1)
+                System.out.println(entry.getKey() + " " + entry.getValue());
+        }
     }
 
     static String firstNonRepeatingCharacter(@NonNull String string) {
@@ -168,6 +203,27 @@ public class DataStructureProblems {
             curr = next; // Move current forward
         }
         return prev; // Return prev as the new head of the reversed list
+    }
+
+    private static void firstThreeLargest(int[] arr) {
+        if (arr.length < 3) {
+            System.out.println("Array must have at least 3 elements.");
+            return;
+        }
+        int second = Integer.MIN_VALUE, first = Integer.MIN_VALUE, third = Integer.MIN_VALUE;
+        for (int j : arr) {
+            if (j > first) {
+                third = second;
+                second = first;
+                first = j;
+            } else if (j > second && j != first) {
+                third = second;
+                second = j;
+            } else if (j > third && j != second) {
+                third = j;
+            }
+        }
+        System.out.println(first + " " + second + " " + third);
     }
 
     private static int secondLargest(int[] arr) {
